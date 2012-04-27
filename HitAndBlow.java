@@ -18,7 +18,7 @@ public class HitAndBlow {
    * @param args
    */
   public static void main(String[] args) {
-    List<Integer> answer = generateAnser(DIGIT);
+    List<Integer> answer = generateAnswer(DIGIT);
 
     // デバッグメッセージ: 答え
     if(DEGUB){
@@ -53,7 +53,7 @@ public class HitAndBlow {
    * @param size
    * @return
    */
-  private static List<Integer> generateAnser(int size) {
+  private static List<Integer> generateAnswer(int size) {
     assert (0 <= size && size <= 9);
     Integer[] nums = { 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 };
     List<Integer> numbers = Arrays.asList(nums);
