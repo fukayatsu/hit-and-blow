@@ -4,8 +4,11 @@ hit-and-blow
 数当てゲーム
 
 
-# コンパイル
-    javac HitAndBlow.java
+4桁の数を当てる
+hit  : 位置と値が正しい数字の数
+blow : 位置は違うが値は正しい数字の数
 
-# 実行
-    java HitAndBlow
+
+TODO
+====
+# テスト追加
